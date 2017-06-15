@@ -14,7 +14,7 @@ public class SearchFieldValidation {
     WebDriver driver = new FirefoxDriver();
 
     @BeforeSuite
-    public void beforeTest(){
+    public void beforeSuit(){
         System.setProperty("webdriver.firefox.driver", "geckodriver.exe");
     }
 
